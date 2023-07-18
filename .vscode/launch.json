@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MedicalApplication",
+            "request": "launch",
+            "mainClass": "MedicalApplication",
+            "projectName": "medical"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MedicalApplication<medical>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.admin.medical.MedicalApplication",
+            "projectName": "medical",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
